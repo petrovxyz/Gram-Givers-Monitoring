@@ -103,6 +103,110 @@ const wallets = {
             id: 'Jodrog'
         },
     ],
+    medium: [
+        { 
+            url: 'https://tonviewer.com/EQD7VspHSNS4VSpN7QQicNgSYoJ68CmdC6oL5ZEKHSXe26Sa/jetton/EQC47093oX5Xhb0xuk2lCr2RhS8rj-vul61u4W2UH5ORmG_O',
+            maxBalance: 50000000,
+            id: 'Dyrso'
+        },
+        { 
+            url: 'https://tonviewer.com/EQC5uEgW0MkTbCRBZB72maxCZT3m14OK2FcSLVr2H_7MTTSF/jetton/EQC47093oX5Xhb0xuk2lCr2RhS8rj-vul61u4W2UH5ORmG_O',
+            maxBalance: 50000000,
+            id: 'Dodrig'
+        },
+        { 
+            url: 'https://tonviewer.com/EQC2nD9nQNRhcfWhdBzRK-wdlTO4hGxnPFzdSxKN777tab2_/jetton/EQC47093oX5Xhb0xuk2lCr2RhS8rj-vul61u4W2UH5ORmG_O',
+            maxBalance: 50000000,
+            id: 'Jardenth'
+        },
+        { 
+            url: 'https://tonviewer.com/EQAqd4vV0O5oGfA7bl6fVORD_Y4PTNZG82AC2BObBux51g2w/jetton/EQC47093oX5Xhb0xuk2lCr2RhS8rj-vul61u4W2UH5ORmG_O',
+            maxBalance: 50000000,
+            id: 'Emmur'
+        },
+        { 
+            url: 'https://tonviewer.com/EQDcOxqaWgEhN_j6Tc4iIQNCj2dBf9AFm0S9QyouwifYo9KD/jetton/EQC47093oX5Xhb0xuk2lCr2RhS8rj-vul61u4W2UH5ORmG_O',
+            maxBalance: 50000000,
+            id: 'Raldre'
+        },
+        { 
+            url: 'https://tonviewer.com/EQAjYs4-QKve9gtwC_HrKNR0Eaqhze4sKUmRhRYeensX8iu3/jetton/EQC47093oX5Xhb0xuk2lCr2RhS8rj-vul61u4W2UH5ORmG_O',
+            maxBalance: 50000000,
+            id: 'Kalriden'
+        },
+        { 
+            url: 'https://tonviewer.com/EQBGhm8bNil8tw4Z2Ekk4sKD-vV-LCz7BW_qIYCEjZpiMF6Q/jetton/EQC47093oX5Xhb0xuk2lCr2RhS8rj-vul61u4W2UH5ORmG_O',
+            maxBalance: 50000000,
+            id: 'Zynnorris'
+        },
+        { 
+            url: 'https://tonviewer.com/EQCtrloCD9BHbVT7q8aXkh-JtL_ZDvtJ5Y-eF2ahg1Ru1EUl/jetton/EQC47093oX5Xhb0xuk2lCr2RhS8rj-vul61u4W2UH5ORmG_O',
+            maxBalance: 50000000,
+            id: 'Jyrrydoss'
+        },
+        { 
+            url: 'https://tonviewer.com/EQCWMIUBrpwl7OeyEQsOF9-ZMKCQ7fh3_UOvM2N5y77u8uPc/jetton/EQC47093oX5Xhb0xuk2lCr2RhS8rj-vul61u4W2UH5ORmG_O',
+            maxBalance: 50000000,
+            id: 'Celbyss'
+        },
+        { 
+            url: 'https://tonviewer.com/EQD_71XLqY8nVSf4i5pqGsCjz6EUo2kQEEQq0LUAgg6AHolO/jetton/EQC47093oX5Xhb0xuk2lCr2RhS8rj-vul61u4W2UH5ORmG_O',
+            maxBalance: 50000000,
+            id: 'Qokos'
+        },
+    ],
+    large: [
+        { 
+            url: 'https://tonviewer.com/EQDUIeTNcRUqsz4bugyWl4q4vg16PN2EwiyyAIEbf7_WJZZH/jetton/EQC47093oX5Xhb0xuk2lCr2RhS8rj-vul61u4W2UH5ORmG_O',
+            maxBalance: 25000000,
+            id: 'Bavaid'
+        },
+        { 
+            url: 'https://tonviewer.com/EQC4qKAIM0Od4RFG-4MAY0dJ3j4Wrcs0jc1XeWKJURYB9KSz/jetton/EQC47093oX5Xhb0xuk2lCr2RhS8rj-vul61u4W2UH5ORmG_O',
+            maxBalance: 25000000,
+            id: 'Rezam'
+        },
+        { 
+            url: 'https://tonviewer.com/EQC0Ssi1gl0IQKEGsCp91NeiTThdMqCzYvlX9sVLEU97rWqL/jetton/EQC47093oX5Xhb0xuk2lCr2RhS8rj-vul61u4W2UH5ORmG_O',
+            maxBalance: 25000000,
+            id: 'Roilbo'
+        },
+        { 
+            url: 'https://tonviewer.com/EQDO2_2zkIJPqBKeE_P1VvDYOJi1vGPgiKo0Aa6Z-bY7BeuG/jetton/EQC47093oX5Xhb0xuk2lCr2RhS8rj-vul61u4W2UH5ORmG_O',
+            maxBalance: 25000000,
+            id: 'Ammass'
+        },
+        { 
+            url: 'https://tonviewer.com/EQADEy4zcVl-ADNMISdYSs5cVjJcHmwC9_phXXjqNKgME7j6/jetton/EQC47093oX5Xhb0xuk2lCr2RhS8rj-vul61u4W2UH5ORmG_O',
+            maxBalance: 25000000,
+            id: 'Myron'
+        },
+        { 
+            url: 'https://tonviewer.com/EQDWELx3CYohD9sIjhyEIhP915kL_3XthqruCbmcB0YTWDqQ/jetton/EQC47093oX5Xhb0xuk2lCr2RhS8rj-vul61u4W2UH5ORmG_O',
+            maxBalance: 25000000,
+            id: 'Gairris'
+        },
+        { 
+            url: 'https://tonviewer.com/EQDdoh2hzGFHdQtiXJNPNrwA8yIGd4-sFxyuEr3z6JL5BIFi/jetton/EQC47093oX5Xhb0xuk2lCr2RhS8rj-vul61u4W2UH5ORmG_O',
+            maxBalance: 25000000,
+            id: 'Frizag'
+        },
+        { 
+            url: 'https://tonviewer.com/EQALXKp6G-IjWTPEqFKILkqcql-43DcoPzJ21Z02abpBPaQK/jetton/EQC47093oX5Xhb0xuk2lCr2RhS8rj-vul61u4W2UH5ORmG_O',
+            maxBalance: 25000000,
+            id: 'Chamaicross'
+        },
+        { 
+            url: 'https://tonviewer.com/EQBAHXFxs1ohHY2bzW9A-V0NDznkFlROkNF_oyppxlLfsyEJ/jetton/EQC47093oX5Xhb0xuk2lCr2RhS8rj-vul61u4W2UH5ORmG_O',
+            maxBalance: 25000000,
+            id: 'Chervecrit'
+        },
+        { 
+            url: 'https://tonviewer.com/EQCUwgBew9u4NwwuFsfPsXX9a69K55uFcieaHtc-c37OYDJO/jetton/EQC47093oX5Xhb0xuk2lCr2RhS8rj-vul61u4W2UH5ORmG_O',
+            maxBalance: 25000000,
+            id: 'Edrocrurth'
+        },
+    ],
 };
 
 async function getWalletBalance(walletURL) {
@@ -186,5 +290,5 @@ document.addEventListener('DOMContentLoaded', async () => {
         console.error('Ошибка при инициализации страницы:', error.message);
     }
     
-    setInterval(updateWallets, 5000);
+    setInterval(updateWallets, 1000);
 });
