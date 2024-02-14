@@ -103,6 +103,7 @@ const wallets = {
             id: 'Jodrog'
         },
     ],
+    /*
     medium: [
         { 
             url: 'https://tonviewer.com/EQD7VspHSNS4VSpN7QQicNgSYoJ68CmdC6oL5ZEKHSXe26Sa/jetton/EQC47093oX5Xhb0xuk2lCr2RhS8rj-vul61u4W2UH5ORmG_O',
@@ -207,6 +208,7 @@ const wallets = {
             id: 'Edrocrurth'
         },
     ],
+    */
 };
 
 async function getWalletBalance(walletURL) {
