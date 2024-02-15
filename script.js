@@ -276,7 +276,7 @@ async function updateWallet(wallet) {
 
         const walletElement = document.getElementById(wallet.url);
         if (walletElement) {
-            walletElement.querySelector('.balance').textContent = `Remaining: ${balance}`;
+            walletElement.querySelector('.balance').textContent = `Remaining: ${balance} (${progressBarWidth.toFixed(2)}%)`;
             walletElement.querySelector('.remaining').textContent = `Сapacity: ${remainingBalance.toLocaleString()}`;
             walletElement.querySelector('.status-fill').style.width = `${progressBarWidth}%`;
         } else {
@@ -315,7 +315,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     <div class="wallet-info">
                         <p><i class="bi bi-box"></i><b> Giver ${wallet.id}</b></p>
                         <span>
-                        <a href="${wallet.tonviewer}" target="_blank">
+                        <a href="${wallet.tonviewer}" target="_blank" class="tonviewer">
                         Tonviewer
                         </a>
                         </span>
