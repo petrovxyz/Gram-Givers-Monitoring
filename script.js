@@ -290,5 +290,5 @@ document.addEventListener('DOMContentLoaded', async () => {
         console.error('Ошибка при инициализации страницы:', error.message);
     }
     
-    setInterval(updateWallets, 1000);
+    setInterval(updateWallets, 3000);
 });
