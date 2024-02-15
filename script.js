@@ -313,7 +313,12 @@ document.addEventListener('DOMContentLoaded', async () => {
                 <!-- HTML -->
                 <div class="wallet-card" id="${wallet.url}">
                     <div class="wallet-info">
-                        <p><i class="bi bi-box"></i><b> Giver ${wallet.id}</b></p><a href="${wallet.tonviewer}">Tonviewer</a>
+                        <p><i class="bi bi-box"></i><b> Giver ${wallet.id}</b></p>
+                        <span>
+                        <a href="${wallet.tonviewer}" target="_blank">
+                        Tonviewer
+                        </a>
+                        </span>
                         <p class="balance">Remaining: loading...</p>
                         <p class="remaining">Сapacity: loading...</p>
                     </div>
