@@ -100,19 +100,19 @@ const wallets = {
         },
         { 
             tonviewer: 'https://tonviewer.com/EQCba5q9VoYGgiGykVazOUZ49UK-1RljUeZgU6E-bW0bqF2Z/jetton/EQC47093oX5Xhb0xuk2lCr2RhS8rj-vul61u4W2UH5ORmG_O',
-            url: 'EQCGGMVDNldf8rEk7Kes5lylUrONdXq9qSg2OO2u-fC-6AHP',
+            url: 'EQCmEkx3VXRdbkvqs6qic91cxphZsPS2vAUvN70qWymbKa_a',
             maxBalance: 75000000,
             id: 'Guvanar'
         },
         { 
             tonviewer: 'https://tonviewer.com/EQCzT8Pk1Z_aMpNukdV-Mqwc6LNaCNDt-HD6PiaSuEeCD0hV/jetton/EQC47093oX5Xhb0xuk2lCr2RhS8rj-vul61u4W2UH5ORmG_O',
-            url: 'EQCmEkx3VXRdbkvqs6qic91cxphZsPS2vAUvN70qWymbKa_a',
+            url: 'EQBQ9V9FSSnbG180zmshd7jDgqiUiCXH-oYerS1-Z66juHBd',
             maxBalance: 75000000,
             id: 'Omecra'
         },
         { 
             tonviewer: 'https://tonviewer.com/EQDglg3hI89dySlr-FR_d1GQCMirkLZH6TPF-NeojP-DbSgY/jetton/EQC47093oX5Xhb0xuk2lCr2RhS8rj-vul61u4W2UH5ORmG_O',
-            url: 'EQBQ9V9FSSnbG180zmshd7jDgqiUiCXH-oYerS1-Z66juHBd',
+            url: 'EQBLstaZ2tad5CSg-uVP76fwvj_K8SBrkOvLKP7pCEYAmHFY',
             maxBalance: 75000000,
             id: 'Nygasdot'
         },
