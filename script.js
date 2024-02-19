@@ -251,7 +251,7 @@ const wallets = {
 
 async function getWalletBalance(address) {
     try {
-        const response = await fetch(`https://toncenter.com/api/v3/jetton/wallets?address=${address}&api_key=b6ebd5019593bd760b4b96c0b9af088fff7d179e5581a1813f42b06cf30b74d6`);
+        const response = await fetch(`https://toncenter.com/api/v3/jetton/wallets?address=${address}&api_key=01516c4c0a0894722f530c3d04dede857bef2731d24fa84cb9ffad580dc5d5ba`);
         const data = await response.json();
         if (Array.isArray(data) && data.length > 0) {
             return data[0].balance;
