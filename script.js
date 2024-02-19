@@ -253,8 +253,9 @@ async function getWalletBalance(address) {
     try {
         const response = await fetch(`https://toncenter.com/api/v3/jetton/wallets?address=${address}&api_key=01516c4c0a0894722f530c3d04dede857bef2731d24fa84cb9ffad580dc5d5ba`);
         const data = await response.json();
-        if (Array.isArray(data) && data.length > 0) {
-            return data[0].balance;
+        const jettonWallets = data.jetton_wallets;
+        if (Array.isArray(jettonWallets) && jettonWallets.length > 0) {
+            return jettonWallets[0].balance;
         } else {
             throw new Error('Incorrect server response');
         }
