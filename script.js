@@ -316,9 +316,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     <div class="wallet-info">
                         <p><i class="bi bi-box"></i><b> Giver ${wallet.id}</b></p>
                         <span>
-                        <a href="${wallet.tonviewer}" target="_blank" class="tonviewer">
-                        Tonviewer
-                        </a>
+                        <span class="tonviewer" data-url="${wallet.tonviewer}" data-target="_blank">Tonviewer</span>
                         </span>
                         <p class="balance">Remaining: loading...</p>
                         <p class="remaining">Сapacity: loading...</p>
@@ -331,6 +329,15 @@ document.addEventListener('DOMContentLoaded', async () => {
                 categoryElement.appendChild(walletElement);
             }
         }
+
+        document.querySelectorAll('.tonviewer').forEach(link => {
+            link.addEventListener('click', function() {
+                const url = this.getAttribute('data-url');
+                const target = this.getAttribute('data-target') || '_self';
+
+                window.open(url, target);
+            });
+        });
     } catch (error) {
         console.error('Error while page rendering:', error.message);
     }
