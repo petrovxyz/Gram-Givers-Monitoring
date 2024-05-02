@@ -9,4 +9,4 @@ Contact me: [@petrovxyz](https://t.me/petrovxyz).
 
 ---
 
-![image](https://github.com/petrovxyz/Gram-Givers-Monitoring/assets/79746501/3e7c09d1-aeb5-4d6a-92c9-2db78df04add)
+<img src="https://github.com/petrovxyz/Gram-Givers-Monitoring/assets/79746501/3e7c09d1-aeb5-4d6a-92c9-2db78df04add" width="500" height="500"/>
